@@ -5,6 +5,20 @@ let address = "";
 let weather = {};
 let units = "metric";
 
+// Service worker
+// if(!('serviceWorker') in navigator){
+//     console.log("Service worker is not supported");
+// }else{
+//     navigator.serviceWorker.register("/weather/service-worker.js")
+//     .then((registration) => {
+//         console.log("SW registered! Scope is: ", registration.scope);
+//     })
+//     .catch((err) => {
+//         console.log(err);
+//     })
+// }
+
+
 //Get location on page load
 document.addEventListener("DOMContentLoaded", () => {
     navigator.geolocation.getCurrentPosition((loc_data) => {
@@ -14,8 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log("Could not get location");
     });
 });
-
-
 
 
 // get the weather for a location
@@ -41,7 +53,7 @@ const getAllWeather = (latt, long) => {
 // get city name from coords
 const convertCoordsToCity = (latt, long) => {
     const limit = 1;
-    const url = `http://api.openweathermap.org/geo/1.0/reverse?lat=${latt}&lon=${long}&limit=${limit}&appid=${APP_ID}`;
+    const url = `https://api.openweathermap.org/geo/1.0/reverse?lat=${latt}&lon=${long}&limit=${limit}&appid=${APP_ID}`;
 
     fetch(url)
     .then((res) => {
