@@ -1,0 +1,301 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Ash Williams
+    tagline: Software Engineering Lecturer 
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: ashley.williams@mmu.ac.uk
+    phone: 
+    timezone: 
+    citizenship:
+    website: ash-williams.github.io #do not add http://
+    linkedin: ash-williams-mmu
+    xing: 
+    github: ash-williams
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: '@williamsash'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    googlescholar: 6Vz4Yo8AAAAJ
+    researchgate: Ashley-Williams-4
+    orcid: 0000-0002-6888-0521 
+    pdf: ash-williams.github.io/cv/ash-williams-cv.pdf
+
+    languages:
+      title: Skills &amp; Proficiency
+      info:
+        - idiom: RESTful APIs and OpenAPI
+        - idiom: JavaScript
+        - idiom: Node & Express
+        - idiom: React Native
+        - idiom: VueJS
+        - idiom: MicroServices
+        - idiom: MongoDB
+        - idiom: SQL
+        - idiom: Empircal methods
+        - idiom: Literature Reviews and Systematic studies
+        - idiom: Text Mining and NLP
+        - idiom: AI and ML
+        - idiom: Data Science
+
+
+    interests:
+      title: Interests
+      info:
+        - item: Climbing
+          link:
+
+        - item: Skiing
+          link:
+        
+        - item: My two dogs :)
+          link: https://www.instagram.com/ispylo/
+
+career-profile:
+    title: About me
+    summary: |
+      Hi, I'm Ash! An educator, researcher, and full stack developer with interests in Web technologies and Software Engineering (SE) education. My teaching and 
+      research focuses on filling the skills gap between academia and the software industry through authentic assessments which mimic industry relevant
+      projects.
+    summary_old: |
+      An experienced educator and researcher with interests in Software Engineering (SE) and 
+      SE education. As an educator, most of the units I teach align
+      with web and native development. I aim to ensure that all of my units fill the
+      skills gap between academia and industy through ensuring industry relevance with 
+      authentic assessments mimicing real world projects. This skills gap is also the 
+      focus of my research where I am investigating how we can survey practitioner generated 
+      social media (e.g., blogs and tutorials) to provide novel evidence for SE 
+      research, and allow early insight into the current and ever-evolving needs of the software 
+      industry. This in turn then feeds back into the curricula.
+education:
+    title: Education
+    info:
+      - degree: MA in Higher Education
+        university: Manchester Metropolitan University, UK
+        time: 2020 - Present
+        details: |
+          Postgraduate studies in learning, teaching and assessment for Higher Education. Currently writing my thesis on the future of
+          Software Engineering education.
+      - degree: PhD in Computer Science
+        university: University of Canterbury, NZ
+        time: 2016 - 2020
+        details: |
+          My thesis was on assessing the quality of practitioner generated grey literature (e.g., blogs and tutorials) for use as evidence within software engineering research. 
+          - **Keywords**: grey literature; evidence based software engineering; natural language processing; text mining; credibility assessment
+          - **URL**: [https://ir.canterbury.ac.nz/handle/10092/17908](https://ir.canterbury.ac.nz/handle/10092/17908)
+      - degree: MEng in Computer Science (Sandwich; Accelerated; First)
+        university: University of Hertfordshire, UK
+        time: 2011 - 2015
+        details: |
+          An accelerated undergraduate masters course. The course is four and a half years long with the third year 
+          being an industrial placement year while studying part time. Third and fourth year included a mix of masters 
+          and undergraduate modules.
+      - degree: Other
+        university:
+        time: 
+        details: |
+          - Cisco Certified Networking Associate (CCNA): Routing and Switching - Completed in Jun 2012 (not certified)
+experiences:
+    title: Experiences
+    info:
+      - role: Software Engineering Lecturer
+        time: 2019 - Present
+        company: Manchester Metropolitan University, Manchester, UK
+        details: |
+          I am the unit leader for first year Web Development, second year Full Stack Development
+           and third year Mobile Computing. I am also the departments employability and placements
+            lead and the programme leader for our BSc Software Engineering course.
+
+          **Units taught**:
+          - **Web Development**: A gental introduction to HTML, CSS and JavaScript. Students create a website for
+          their favourite band/musician and interact with a RESTful API to provide the ability to sign up to a
+          mailing list.
+          - **Full Stack Web Development**: Students are provided with an OpenAPI specification and a series of 
+          automated tests (written with Mocha and Chai). In the first half of the assessment they implement the API
+          using Node, Express, and SQLite. Then for the second half of the assessment they create the front end 
+          using VueJS (see more: [https://github.com/ash-williams/fsd_blog_engine_server](https://github.com/ash-williams/fsd_blog_engine_server))
+          - **Mobile Computing**: Students are provided with a backend server which implements an OpenAPI specification.
+          They then create a React Native application which interacts with the API. Each year, the assignment API
+          mimics an existing social media application (e.g., WhatsApp ([https://github.com/ash-williams/whatsthat](https://github.com/ash-williams/whatsthat))).
+          Students are also introduced to scalable architectures and security considerations.
+          
+          **Responsibilities**:
+          - **Programme Leader**: I am responsible for the overall undergraduate Software Engineering course. This 
+          includes the overall coherance and delivery of the course, as well as catering to the needs of all 
+          students enrolled.
+          - **Employability and Placements Lead**: I interface with companies to help them build relationships with 
+          students and develop talent pipelines. I created and chair the departments Industry Advisory Board which
+          is made up of senior leaders from organisations which regularly recruit our students. The board meets
+          twice a year to discuss the curriculum and opportunities for engagement.
+
+          **Other**:
+          - Set up a group where students work on projects for social good. Typically applications and websites for 
+          charities and non-profit organisations.
+          - Personal tutoring, mentorship, and project supervision for undergraduate and postgraduate students.
+          - Consulted on, and co-developed projects to design extra-curricular courses aimed at plugging the digital 
+          skills gap.
+      - role: Tutor/Teaching Assistant (part time)
+        time: 2016 - 2018
+        company: University of Canterbury, Christchurch, NZ
+        details: |
+          I aided in the development and delivery of software engineering and data science units across multiple undergraduate and postgraduate units. In addition, I volunteered during University open days to promote the department to new students.
+
+          **Units taught**:
+          - Tutoring on the Masters level introduction to data science (Python)
+          - Tutoring on the 3rd year web computing architectures course (JavaScript, Node, Express, MySQL, VueJS)
+          - Tutoring on the 2nd year team project module (Java)
+          - Tutoring on the 1st year programming module (Python)
+          - Tutoring on the 1st year foundations of engineering module
+
+          **Other**:
+          - Mark exam papers for the Accounting and Information Systems department
+          - University open days and events
+      - role: Technical Support Analyst
+        time: 2013 - 2016
+        company: Drive Software Solutions, Stevenage, UK
+        details: |
+          **Responsibilities**:
+          - Product based technical services and release management (including customer patching and maintianing test systems).
+          - Network design and maintainence 
+          - Development of data analytics module and reporting for the main product (PL/SQL, Oracle, AngularJS)
+projects:
+    title: Research &amp; Projects
+    intro: |
+      An overview to some of the key research projects that I have contributed to. For a list of publications, please refer 
+      to Google Scholar.
+    assignments:
+      - title: Software Engineering Research Exploiting Naturally Produced Artefacts (SERENPA)
+        link: "https://serenpa.github.io/"
+        tagline: "A project looking at the use of Grey Literature as evidence in research. We aim to survey Grey Literature and social
+        media to complement existing forms of data collection techniques (e.g., surveys and interviews)"
+
+      - title: Whats the point of SE in Higher Education?
+        link2: "#"
+        tagline: "There are now multiple routes into SE, and the early careers curriculum now means that every 11 year old can code in 
+        two different languages. Higher Education (HE) providers will need to evolve in order to remain relevant. This project aims to 
+        investigate what the future of SE in HE looks like."
+
+      - title: Secure Software Development in Action
+        link2: "#"
+        tagline: "This project aims to reduce the amount of insecure software by exploring practitioner attitudes, motivations and deterrants for
+        focusing on security when developing."
+
+      - title: Smarter Thinking
+        link: "https://apps.apple.com/gb/app/smarter-thinking/id1583013567"
+        tagline: "A native application built in collaboration with psychology researchers. A diary app that serves as a take home exercise for
+        those undergoing therapy. The app promotes rational thinking using Rational Emotive Behaviour Therapy (REBT). The app is built using 
+        React Native and Firebase, and is publically available on Android and iOS."
+
+      - title: Other
+        link2: "#"
+        tagline: "<ul>
+          <li><b>REDDY Project</b>: A native application built to help those with eating disorders</li>
+          <li><b>NLP in Healthcare</b>: A collaboration between academic institutes and Salford Royal Hospital Neurologists. The aim is to look 
+          into NLP applications which support patient care and data analysis</li>
+          "
+
+oss:
+    title: OSS Contributions
+    intro: >
+      You can list your open source software contributions in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    contributions:
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications_old:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency - Web/Mobile Development
+    toolset:
+      - name: RESTful APIs &amp; OpenAPI
+        level: 98%
+
+      - name: Javascript
+        level: 98%
+
+      - name: NodeJS &amp; ExpressJS
+        level: 85%
+
+      - name: React Native
+        level: 80%
+
+      - name: VueJS
+        level: 75%
+
+      - name: Microservices
+        level: 65%
+      
+      - name: MongoDB
+        level: 90%
+      
+      - name: SQL
+        level: 90%
+
+skills_research:
+    title: Skills &amp; Proficiency - Research
+    toolset:
+      - name: Empirical Methods
+        level: 75%
+
+      - name: Literature Reviews &amp; Systematic Studies
+        level: 70%
+
+      - name: Text Mining &amp; NLP
+        level: 75%
+
+      - name: AI and ML
+        level: 70%
+
+      - name: Data Science
+        level: 75%
+
+      - name: Python
+        level: 95%
+      
+      - name: R
+        level: 70%
+
+footer: >
+    
